@@ -1,0 +1,21 @@
+{
+  "name": "tracktivism-backend",
+  "version": "1.0.0",
+  "description": "tracking your activism",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "SarahEvelynn Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
