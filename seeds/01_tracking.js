@@ -13,8 +13,7 @@ exports.seed = function(knex, Promise) {
           SentOn: true,
           Other: false,
           Notes: "Good reception from office",
-          NumberOfActions: 3,
-          LegislationId: 1
+          NumberOfActions: 3
         },
         {
           id: 2,
@@ -26,8 +25,7 @@ exports.seed = function(knex, Promise) {
           SentOn: true,
           Other: false,
           Notes: "Lot's of current traction - rally with Jeremy and co.",
-          NumberOfActions: 4,
-          LegislationId: 5
+          NumberOfActions: 4
         },
         {
           id: 3,
@@ -40,8 +38,7 @@ exports.seed = function(knex, Promise) {
           Other: true,
           Notes:
             "Great bill - looking to get ones like it sponsored accross US",
-          NumberOfActions: 4,
-          LegislationId: 7
+          NumberOfActions: 4
         },
         {
           id: 4,
@@ -53,8 +50,7 @@ exports.seed = function(knex, Promise) {
           SentOn: true,
           Other: false,
           Notes: "Horrible bill - call Henri in TN to get some movement",
-          NumberOfActions: 2,
-          LegislationId: 6
+          NumberOfActions: 2
         },
         {
           id: 5,
@@ -66,8 +62,7 @@ exports.seed = function(knex, Promise) {
           SentOn: true,
           Other: true,
           Notes: "Dangerous-bad bill. Need to keep an eye on this one",
-          NumberOfActions: 3,
-          LegislationId: 13
+          NumberOfActions: 3
         }
       ]);
     })

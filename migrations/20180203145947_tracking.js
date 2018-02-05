@@ -10,7 +10,6 @@ exports.up = function(knex, Promise) {
     table.boolean("Other");
     table.text("Notes");
     table.integer("NumberOfActions");
-    table.integer("LegislationId");
   });
 };
 
