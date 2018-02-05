@@ -4,7 +4,7 @@ const queries = require("./queries");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
-app.use(cors({origin: true}));
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/", (request, response) => {
