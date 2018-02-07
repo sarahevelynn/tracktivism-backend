@@ -43,6 +43,6 @@ module.exports = {
   deleteTracking(id) {
     return database("tracking")
       .delete()
-      .where("LegislationId", id);
+      .where("id", id);
   }
 };
