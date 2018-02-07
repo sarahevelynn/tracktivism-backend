@@ -22,6 +22,7 @@ exports.seed = function(knex, Promise) {
         {
           id: 3,
           StateBillID: "AB7",
+          StateCode: "CA",
           BillName: "Open Carry Firearms",
           KeyWords: "Firearms",
           Link: "https://www.billtrack50.com/BillDetail/757132"
