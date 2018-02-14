@@ -39,6 +39,15 @@ app.get("/tracking", (request, response) => {
     .catch(error => console.log(error));
 });
 
+app.get("/catagories", (request, response) => {
+  queries
+    .list("catagories")
+    .then(catagories => {
+      response.json({ catagories });
+    })
+    .catch(error => console.log(error));
+});
+
 app.get("/tracking/:id", (request, response) => {
   queries
     .read(request.params.id, "tracking")
