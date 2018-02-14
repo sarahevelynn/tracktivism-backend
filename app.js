@@ -11,10 +11,11 @@ app.get("/", (request, response) => {
   queries
     .list("legislation")
     .then(legislation =>
-      queries.list("tracking").then(tracking =>
+      queries.list("tracking").then(tracking => queries.list("catagories").then(catagories =>
         response.json({
           legislation: legislation,
-          tracking: tracking
+          tracking: tracking,
+          catagories: catagories
         })
       )
     )
@@ -53,6 +54,15 @@ app.get("/tracking/:id", (request, response) => {
     .read(request.params.id, "tracking")
     .then(tracking => {
       tracking ? response.json({ tracking }) : response.sendStatus(404);
+    })
+    .catch(console.error);
+});
+
+app.get("/legislation/:id", (request, response) => {
+  queries
+    .read(request.params.id, "legislation")
+    .then(legislation => {
+      legislation ? response.json({ legislation }) : response.sendStatus(404);
     })
     .catch(console.error);
 });
