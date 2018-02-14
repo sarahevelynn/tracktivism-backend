@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
           StateBillID: "S2508",
           StateCode: "NJ",
           BillName: "Nosey's Law",
-          KeyWords: "Animal Rights",
+          KeyWords: "Random",
           Link: "https://www.billtrack50.com/BillDetail/750051"
         },
         {
@@ -40,7 +40,7 @@ exports.seed = function(knex, Promise) {
           StateBillID: "HB1067",
           StateCode: "CO",
           BillName: "Right To Rest Act",
-          KeyWords: "Homelessness",
+          KeyWords: "Civil Rights",
           Link: "https://www.billtrack50.com/BillDetail/917730"
         },
         {
@@ -48,7 +48,7 @@ exports.seed = function(knex, Promise) {
           StateBillID: "HB0892",
           StateCode: "TN",
           BillName: "Tennessee Natural Marriage Defense Act",
-          KeyWords: "LGBTQ Rights",
+          KeyWords: "LGBTQ",
           Link: "https://www.billtrack50.com/BillDetail/816368"
         },
         {
@@ -56,7 +56,7 @@ exports.seed = function(knex, Promise) {
           StateBillID: "A1451",
           StateCode: "NJ",
           BillName: "Women or minority owned businesses",
-          KeyWords: "Entrepreneurial",
+          KeyWords: "Business",
           Link: "https://www.billtrack50.com/BillDetail/694981"
         },
         {
@@ -81,7 +81,7 @@ exports.seed = function(knex, Promise) {
           StateBillID: "HB70",
           StateCode: "AL",
           BillName: "Age change tobacco sales",
-          KeyWords: "Tobacco",
+          KeyWords: "Health Care",
           Link: "https://www.billtrack50.com/BillDetail/799672"
         },
         {
@@ -90,7 +90,7 @@ exports.seed = function(knex, Promise) {
           StateCode: "US",
           BillName:
             "Protect Children, Farmers, and Farmworkers from Nerve Agent Pesticides Act of 2017",
-          KeyWords: "Health",
+          KeyWords: "Health Care",
           Link: "https://www.billtrack50.com/BillDetail/887891"
         },
         {
@@ -106,7 +106,7 @@ exports.seed = function(knex, Promise) {
           StateBillID: "HB1100",
           StateCode: "MS",
           BillName: "Requiring the 10 Comandments",
-          KeyWords: "Public schools",
+          KeyWords: "Education",
           Link: "https://www.billtrack50.com/BillDetail/924246"
         },
         {
@@ -115,7 +115,7 @@ exports.seed = function(knex, Promise) {
           StateCode: "TX",
           BillName:
             "Relating to enhancing the penalties for certain repeat and habitual offenders",
-          KeyWords: "Felon",
+          KeyWords: "Civil Rights",
           Link: "https://www.billtrack50.com/BillDetail/753467"
         },
         {
@@ -132,7 +132,7 @@ exports.seed = function(knex, Promise) {
           StateBillID: "HB1996",
           StateCode: "HI",
           BillName: "Relating To Pretrial Release",
-          KeyWords: "Bail",
+          KeyWords: "Civil Rights",
           Link: "https://www.billtrack50.com/BillDetail/930838"
         }
       ]);
